@@ -7,5 +7,12 @@ public class Player : ScriptableObject
 {
     public float velocity;
     public float baseJumpForce;
-    public float fallingSpeed;
+    public float jumpCutForce;
+    public float maxFallSpeed;
+    public float fallMultiplier;
+    public float arrowSpeed;
+    public int arrowTotal;
+    public float arrowRespawnCooldown;
+
 }
+

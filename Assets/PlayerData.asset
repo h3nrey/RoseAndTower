@@ -13,5 +13,10 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   velocity: 200
-  baseJumpForce: 7
-  fallingSpeed: -8
+  baseJumpForce: 15
+  jumpCutForce: 0.45
+  maxFallSpeed: -12
+  fallMultiplier: 0.5
+  arrowSpeed: 600
+  arrowTotal: 1
+  arrowRespawnCooldown: 0.5
